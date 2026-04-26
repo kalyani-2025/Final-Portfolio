@@ -1,6 +1,6 @@
 
 
-/* ── RESET & ROOT ── */
+ RESET & ROOT 
 :root {
   --cream: #F5EFE6;
   --dark-brown: #3A2828;
@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ── NAV ── */
+ NAV 
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
@@ -52,7 +52,7 @@ nav {
 }
 .nav-links a:hover { color: var(--accent); }
 
-/* ── HERO ── */
+ HERO 
 #hero {
   min-height: 100vh;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
