@@ -1,10 +1,8 @@
-/* ============================================================
-   K. Venkata Kalyani — Portfolio Scripts
-   ============================================================ */
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  /* ── 1. SCROLL REVEAL ── */
+  1. SCROLL REVEAL 
   const revealEls = document.querySelectorAll('.reveal');
   const revealObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
@@ -18,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     revealObserver.observe(el);
   });
 
-  /* ── 2. SKILL BARS ── */
+   2. SKILL BARS 
   const skillSection = document.querySelector('#skills');
   if (skillSection) {
     const skillObserver = new IntersectionObserver(function (entries) {
@@ -33,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     skillObserver.observe(skillSection);
   }
 
-  /* ── 3. CONTACT FORM SUBMISSION ── */
+   3. CONTACT FORM SUBMISSION 
   var sendBtn = document.getElementById('sendBtn');
   if (sendBtn) {
     sendBtn.addEventListener('click', function () {
@@ -75,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /* ── 4. NEWSLETTER SUBSCRIBE ── */
+   4. NEWSLETTER SUBSCRIBE 
   var subBtn = document.getElementById('subscribeBtn');
   if (subBtn) {
     subBtn.addEventListener('click', function () {
@@ -95,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /* ── 5. ACTIVE NAV LINK ON SCROLL ── */
+ 5. ACTIVE NAV LINK ON SCROLL 
   var sections = document.querySelectorAll('section[id]');
   var navLinks  = document.querySelectorAll('.nav-links a');
 
