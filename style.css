@@ -1,6 +1,6 @@
 
 
- RESET & ROOT 
+/* ── RESET & ROOT ── */
 :root {
   --cream: #F5EFE6;
   --dark-brown: #3A2828;
@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
 }
 
- NAV 
+/* ── NAV ── */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
@@ -52,7 +52,7 @@ nav {
 }
 .nav-links a:hover { color: var(--accent); }
 
- HERO 
+/* ── HERO ── */
 #hero {
   min-height: 100vh;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -475,7 +475,7 @@ footer {
 
 /* ── SCROLL REVEAL ── */
 .reveal {
-  opacity: 1; transform: translateY(0);
+  opacity: 0; transform: translateY(30px);
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
